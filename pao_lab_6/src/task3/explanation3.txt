@@ -1,0 +1,1 @@
+Am folosit design pattern-ul Factory pentru a construi mai multe obiecte Payment de tipuri diferite.

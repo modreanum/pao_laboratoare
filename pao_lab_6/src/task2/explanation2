@@ -1,0 +1,3 @@
+Am folosit design pattern-ul Observer. Clasa Topic este Publisher si clasa Client este Listener.
+Topic are metoda notify care apeleaza metoda onNotify din Client pentru fiecare client din
+topicul in care a fost trimis mesajul fara clientul care a trimis mesajul.

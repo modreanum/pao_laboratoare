@@ -1,0 +1,2 @@
+Am folost design pattern-ul Strategy pentru sortarea studentilor cu interfata Sorter care este implementata de 3
+variante de sort.
