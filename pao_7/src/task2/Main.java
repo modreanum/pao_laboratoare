@@ -22,7 +22,7 @@ public class Main {
         }
 
 
-        String filePath = Objects.requireNonNull(task2.Main.class.getResource("task2.txt")).getFile();
+       // String filePath = Objects.requireNonNull(task2.Main.class.getResource("task2.txt")).getFile();
 
         try (FileReader fileReader = new FileReader(filePath)) {
 
