@@ -43,9 +43,9 @@ public class T6 {
         List<LetterCounter> threads = new ArrayList<>();
         try (BufferedReader reader = new BufferedReader(new FileReader(args[0]))) {
             String line;
-            while ((line = reader.readLine())!=null) {
+            while ((line = reader.readLine()) != null) {
                 threads.add(new LetterCounter(line, ch));
-                threads.get(threads.size()-1).start();
+                threads.get(threads.size() - 1).start();
             }
         } catch (IOException e) {
             System.out.println(e.getMessage());
